@@ -1,0 +1,289 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+header{
+    height: 65px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 500;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ruda', sans-serif;
+}
+.branding{
+    font-size: 29px;
+    margin-left: 40px;
+    align-self: center;
+}
+.nav-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.nav-text > p{
+    padding-left: 15px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.social-icons > .img1{
+    width: 70px;
+}
+
+.social-icons > .img2{
+    width: 70px;
+}
+
+.social-icons > .img1{
+    width: 70px;
+} 
+
+ .content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content > img{
+    opacity: 0.5;
+    height: 900px;
+}
+.content > h1{
+    position: absolute;
+    font-size: 100px;
+    top: 40px;
+    left: 70px;
+    font-family: 'Quattrocento', serif;
+}
+.content > .para{
+   position: absolute;
+   width: 500px;
+   height: 15px;
+   top: 400px;
+   left: 70px;
+   background-color: #F24C4C; 
+}
+
+.content > p{
+    position: absolute;
+    font-size: 25px;
+    top: 500px;
+    left: 70px;
+    font-family: 'Ruda', sans-serif;
+    line-height: 40px;
+}
+
+section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutUs{
+    margin-bottom: 100px;
+}
+.aboutUs > h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-family: 'Quattrocento', serif;
+    margin-top: 50px;
+}
+
+.para2{
+    display: flex;
+    width: 400px;
+    height: 10px;
+    background-color: #B62828;
+    margin-left: 35%;
+    margin-bottom: 40px;
+}
+
+.aboutPara{
+    display: flex;
+    flex-flow: row-wrap ;
+    margin-right: 50px;
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.aboutUS-down{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutUS-down > img{
+    margin-left: 50px;
+    width: 90%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.para3{
+    display: flex;
+    width: 400px;
+    height: 10px;
+    background-color: #B62828;
+    margin-left: 35%;
+    margin-bottom: 40px;
+}
+.menu-header > h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-family: 'Quattrocento', serif;
+    margin-top: 50px;
+}
+.para4{
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 75px;
+}
+
+.menu-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 10px;
+}
+.item{
+    display: flex;
+}
+
+.item-content{
+    align-items: start;
+    margin-left: 30px;
+}
+.item-content > h1{
+    color: #F2C94C;
+    font-family: 'Ruda', sans-serif;
+}
+
+.item-content > p{
+    font-family: 'Ruda', sans-serif;
+    line-height: 40px;
+}
+
+.findUs{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 100px;
+} 
+.para5{
+    display: flex;
+    width: 400px;
+    height: 10px;
+    background-color: #B62828;
+    margin-left: 35%;
+    margin-bottom: 70px;
+}
+.findUs-header > h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-family: 'Quattrocento', serif;
+    margin-top: 100px;
+}
+.findUs-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.left-findUs{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.left-findUs > p{
+    line-height: 40px;
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 60px;
+}
+
+.left1{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.left1 > img{
+    width: 50px;
+    height: 50px;
+}
+.left1 > p{
+    margin-left: 20px;
+    text-align: center;
+}
+.left2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.left2 > img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.left2-In{
+    margin-left: 30px;
+}
+
+footer{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container > .left > img{
+    width: 150px;
+    height: 100px;
+}
+.right{
+    margin-right: 20%;
+}
+
+.right > .right1{
+    display: flex;
+
+}
+.right1 > p{
+    margin-left: 30px;
+}
+.right1 > img{
+    width: 40px;
+    height: 40px;
+}
+
+.right > .right2{
+    display: flex;
+}
+.right > .right2 > .right2-In{
+    margin-left: 30px;
+}
+
+.right2 > img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
